@@ -1,5 +1,4 @@
 #import "MainViewController.h"
-#import "GameViewController.h"
 #import "Debug.h"
 
 @implementation MainViewController

@@ -3,7 +3,7 @@
 @class MainViewController;
 
 @interface MainWindowController : NSWindowController {
-	IBOutlet NSView* mainView;
+	IBOutlet NSView* view;
 	MainViewController* mainViewController;
 }
 

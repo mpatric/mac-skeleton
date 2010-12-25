@@ -3,7 +3,7 @@
 @class PreferencesViewController;
 
 @interface PreferencesWindowController : NSWindowController {
-	IBOutlet NSView* preferencesView;
+	IBOutlet NSView* view;
 	PreferencesViewController* preferencesViewController;
 }
 

@@ -31,6 +31,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MacSkeleton_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacSkeleton_Prefix.pch; sourceTree = "<group>"; };
+		4C0736D612C693CE0091BE4D /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
 		4C5F4C9212C67F83000D71A9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
 		4C5F4C9512C67FB2000D71A9 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
 		4C5F4C9612C67FB2000D71A9 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
@@ -69,8 +70,9 @@
 		080E96DDFE201D6D7F000001 /* Frontend */ = {
 			isa = PBXGroup;
 			children = (
-				4C5F4CA512C68126000D71A9 /* Debug.h */,
 				4C5F4CA612C68142000D71A9 /* Environment.h */,
+				4C0736D612C693CE0091BE4D /* Consts.h */,
+				4C5F4CA512C68126000D71A9 /* Debug.h */,
 				4C5F4C9812C67FB8000D71A9 /* Main */,
 				4C5F4C9912C67FBD000D71A9 /* Preferences */,
 			);

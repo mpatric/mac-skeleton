@@ -9,9 +9,10 @@
 	NSResponder * aNextResponder = [self nextResponder];
 	[self setNextResponder:preferencesViewController];
 	[preferencesViewController setNextResponder:aNextResponder];
+	[view addSubview:preferencesViewController.view];
 }
 
-- (void)dealloc {
+- (void) dealloc {
 	[preferencesViewController release];
 	[super dealloc];
 }
