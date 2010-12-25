@@ -34,13 +34,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314992088;
-			PBXWorkspaceStateSaveDate = 314992088;
+			PBXPerProjectTemplateStateSaveDate = 314992308;
+			PBXWorkspaceStateSaveDate = 314992308;
 		};
 		perUserProjectItems = {
-			4C2DC64A12C665D30008CA7B = 4C2DC64A12C665D30008CA7B /* PBXTextBookmark */;
-			4C6A875912C665DB0098E223 /* PBXTextBookmark */ = 4C6A875912C665DB0098E223 /* PBXTextBookmark */;
-			4CC7C8C212C6659A009F567D = 4CC7C8C212C6659A009F567D /* PBXTextBookmark */;
+			4C6A875912C665DB0098E223 = 4C6A875912C665DB0098E223 /* PBXTextBookmark */;
+			4C6A877212C666B10098E223 = 4C6A877212C666B10098E223 /* PBXTextBookmark */;
 			4CE4AF0512C664190077521D = 4CE4AF0512C664190077521D /* PBXTextBookmark */;
 			4CE4AF2112C664D10077521D = 4CE4AF2112C664D10077521D /* PBXTextBookmark */;
 			4CE4AF2212C664D10077521D = 4CE4AF2212C664D10077521D /* PBXTextBookmark */;
@@ -55,7 +54,7 @@
 		userBuildSettings = {
 		};
 	};
-	4C2DC64A12C665D30008CA7B /* PBXTextBookmark */ = {
+	4C6A875912C665DB0098E223 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4CE4AED112C661310077521D /* MainViewController.m */;
 		name = "MainViewController.m: 17";
@@ -65,7 +64,7 @@
 		vrLen = 377;
 		vrLoc = 0;
 	};
-	4C6A875912C665DB0098E223 /* PBXTextBookmark */ = {
+	4C6A877212C666B10098E223 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4CE4AED112C661310077521D /* MainViewController.m */;
 		name = "MainViewController.m: 17";
@@ -77,7 +76,7 @@
 	};
 	4CB6F3CC0E348495000CBAEF /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 460}}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 416}}";
 			sepNavSelRange = "{138, 0}";
 			sepNavVisRange = "{0, 146}";
 		};
@@ -102,16 +101,6 @@
 			sepNavSelRange = "{125, 0}";
 			sepNavVisRange = "{0, 501}";
 		};
-	};
-	4CC7C8C212C6659A009F567D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CE4AED112C661310077521D /* MainViewController.m */;
-		name = "MainViewController.m: 17";
-		rLen = 0;
-		rLoc = 377;
-		rType = 0;
-		vrLen = 377;
-		vrLoc = 0;
 	};
 	4CE4AE8812C658FB0077521D /* MacSkeleton */ = {
 		isa = PBXExecutable;
@@ -166,7 +155,7 @@
 	};
 	4CE4AED112C661310077521D /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {972, 407}}";
+			sepNavIntBoundsRect = "{{0, 0}, {972, 416}}";
 			sepNavSelRange = "{377, 0}";
 			sepNavVisRange = "{0, 377}";
 		};

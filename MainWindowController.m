@@ -11,7 +11,6 @@
 	[mainViewController setNextResponder:aNextResponder];
 }
 
-
 - (void)dealloc {
 	[mainViewController release];
 	[super dealloc];
