@@ -9,6 +9,7 @@
 	NSResponder * aNextResponder = [self nextResponder];
 	[self setNextResponder:mainViewController];
 	[mainViewController setNextResponder:aNextResponder];
+	[mainView addSubview:mainViewController.view];
 }
 
 - (void)dealloc {

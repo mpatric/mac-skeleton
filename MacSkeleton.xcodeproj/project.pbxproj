@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5F4C9312C67F83000D71A9 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5F4C9112C67F83000D71A9 /* PreferencesWindow.xib */; };
+		4C5F4C9712C67FB2000D71A9 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F4C9612C67FB2000D71A9 /* PreferencesWindowController.m */; };
+		4C5F4C9C12C6802F000D71A9 /* PreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5F4C9A12C6802F000D71A9 /* PreferencesView.xib */; };
+		4C5F4CA112C6808A000D71A9 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F4CA012C6808A000D71A9 /* PreferencesViewController.m */; };
+		4C5F4CA412C680AA000D71A9 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F4CA312C680AA000D71A9 /* PreferencesView.m */; };
 		4CB6F3D70E348495000CBAEF /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6F3CD0E348495000CBAEF /* AppController.m */; };
 		4CB6F3D80E348495000CBAEF /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6F3CF0E348495000CBAEF /* MainWindowController.m */; };
 		4CE4AEAA12C659220077521D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4AEA812C659220077521D /* MainWindow.xib */; };
 		4CE4AEB912C659840077521D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4AEB712C659840077521D /* MainMenu.xib */; };
 		4CE4AED212C661310077521D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4AED112C661310077521D /* MainViewController.m */; };
 		4CE4AED512C661B50077521D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE4AED312C661B50077521D /* MainView.xib */; };
-		4CE4AEE212C662090077521D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4AEE112C662090077521D /* GameViewController.m */; };
-		4CE4AEE912C662630077521D /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4AEE812C662630077521D /* GameView.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -28,6 +31,16 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MacSkeleton_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacSkeleton_Prefix.pch; sourceTree = "<group>"; };
+		4C5F4C9212C67F83000D71A9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
+		4C5F4C9512C67FB2000D71A9 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		4C5F4C9612C67FB2000D71A9 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		4C5F4C9B12C6802F000D71A9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesView.xib; sourceTree = "<group>"; };
+		4C5F4C9F12C6808A000D71A9 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		4C5F4CA012C6808A000D71A9 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		4C5F4CA212C680AA000D71A9 /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
+		4C5F4CA312C680AA000D71A9 /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
+		4C5F4CA512C68126000D71A9 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		4C5F4CA612C68142000D71A9 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
 		4CB6F3CC0E348495000CBAEF /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		4CB6F3CD0E348495000CBAEF /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		4CB6F3CE0E348495000CBAEF /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
@@ -37,10 +50,6 @@
 		4CE4AED012C661310077521D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4CE4AED112C661310077521D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CE4AED412C661B50077521D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainView.xib; sourceTree = "<group>"; };
-		4CE4AEE012C662090077521D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		4CE4AEE112C662090077521D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		4CE4AEE712C662630077521D /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
-		4CE4AEE812C662630077521D /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,13 +69,10 @@
 		080E96DDFE201D6D7F000001 /* Frontend */ = {
 			isa = PBXGroup;
 			children = (
-				4CB6F3CC0E348495000CBAEF /* AppController.h */,
-				4CB6F3CD0E348495000CBAEF /* AppController.m */,
-				4CB6F3CE0E348495000CBAEF /* MainWindowController.h */,
-				4CB6F3CF0E348495000CBAEF /* MainWindowController.m */,
-				4CE4AED012C661310077521D /* MainViewController.h */,
-				4CE4AED112C661310077521D /* MainViewController.m */,
-				4CE4AEEA12C662900077521D /* Game */,
+				4C5F4CA512C68126000D71A9 /* Debug.h */,
+				4C5F4CA612C68142000D71A9 /* Environment.h */,
+				4C5F4C9812C67FB8000D71A9 /* Main */,
+				4C5F4C9912C67FBD000D71A9 /* Preferences */,
 			);
 			name = Frontend;
 			sourceTree = "<group>";
@@ -124,6 +130,8 @@
 				4CE4AEB712C659840077521D /* MainMenu.xib */,
 				4CE4AEA812C659220077521D /* MainWindow.xib */,
 				4CE4AED312C661B50077521D /* MainView.xib */,
+				4C5F4C9112C67F83000D71A9 /* PreferencesWindow.xib */,
+				4C5F4C9A12C6802F000D71A9 /* PreferencesView.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -139,15 +147,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CE4AEEA12C662900077521D /* Game */ = {
+		4C5F4C9812C67FB8000D71A9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				4CE4AEE012C662090077521D /* GameViewController.h */,
-				4CE4AEE112C662090077521D /* GameViewController.m */,
-				4CE4AEE712C662630077521D /* GameView.h */,
-				4CE4AEE812C662630077521D /* GameView.m */,
+				4CB6F3CC0E348495000CBAEF /* AppController.h */,
+				4CB6F3CD0E348495000CBAEF /* AppController.m */,
+				4CB6F3CE0E348495000CBAEF /* MainWindowController.h */,
+				4CB6F3CF0E348495000CBAEF /* MainWindowController.m */,
+				4CE4AED012C661310077521D /* MainViewController.h */,
+				4CE4AED112C661310077521D /* MainViewController.m */,
 			);
-			name = Game;
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4C5F4C9912C67FBD000D71A9 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F4C9512C67FB2000D71A9 /* PreferencesWindowController.h */,
+				4C5F4C9612C67FB2000D71A9 /* PreferencesWindowController.m */,
+				4C5F4C9F12C6808A000D71A9 /* PreferencesViewController.h */,
+				4C5F4CA012C6808A000D71A9 /* PreferencesViewController.m */,
+				4C5F4CA212C680AA000D71A9 /* PreferencesView.h */,
+				4C5F4CA312C680AA000D71A9 /* PreferencesView.m */,
+			);
+			name = Preferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +227,8 @@
 				4CE4AEAA12C659220077521D /* MainWindow.xib in Resources */,
 				4CE4AEB912C659840077521D /* MainMenu.xib in Resources */,
 				4CE4AED512C661B50077521D /* MainView.xib in Resources */,
+				4C5F4C9312C67F83000D71A9 /* PreferencesWindow.xib in Resources */,
+				4C5F4C9C12C6802F000D71A9 /* PreferencesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,8 +243,9 @@
 				4CB6F3D70E348495000CBAEF /* AppController.m in Sources */,
 				4CB6F3D80E348495000CBAEF /* MainWindowController.m in Sources */,
 				4CE4AED212C661310077521D /* MainViewController.m in Sources */,
-				4CE4AEE212C662090077521D /* GameViewController.m in Sources */,
-				4CE4AEE912C662630077521D /* GameView.m in Sources */,
+				4C5F4C9712C67FB2000D71A9 /* PreferencesWindowController.m in Sources */,
+				4C5F4CA112C6808A000D71A9 /* PreferencesViewController.m in Sources */,
+				4C5F4CA412C680AA000D71A9 /* PreferencesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +258,22 @@
 				089C165DFE840E0CC02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5F4C9112C67F83000D71A9 /* PreferencesWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5F4C9212C67F83000D71A9 /* English */,
+			);
+			name = PreferencesWindow.xib;
+			sourceTree = "<group>";
+		};
+		4C5F4C9A12C6802F000D71A9 /* PreferencesView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5F4C9B12C6802F000D71A9 /* English */,
+			);
+			name = PreferencesView.xib;
 			sourceTree = "<group>";
 		};
 		4CE4AEA812C659220077521D /* MainWindow.xib */ = {
