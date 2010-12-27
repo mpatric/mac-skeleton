@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4C13E2B712C8B82300DB5E49</string>
+										<string>4C13E2C212C8B8A800DB5E49</string>
 										<key>history</key>
 										<array>
 											<string>4C5F4CAA12C681D6000D71A9</string>
@@ -550,6 +550,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>4C13E2CA12C8B8A800DB5E49</string>
+		<string>4C13E2CB12C8B8A800DB5E49</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4CE4AE9912C659030077521D</string>
 		<string>/Users/michael/Code/github/mpatric/mac-skeleton/MacSkeleton.xcodeproj</string>
 	</array>
@@ -753,13 +757,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>4CD35ED012C696FC00EC0C25</string>
+				<string>4C13E2C312C8B8A800DB5E49</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4CD35ED112C696FC00EC0C25</string>
-				<string>4CD35ED212C696FC00EC0C25</string>
-				<string>4CD35ED312C696FC00EC0C25</string>
-				<string>4CD35ED412C696FC00EC0C25</string>
-				<string>4CD35ED512C696FC00EC0C25</string>
+				<string>4C13E2C412C8B8A800DB5E49</string>
+				<string>4C13E2C512C8B8A800DB5E49</string>
+				<string>4C13E2C612C8B8A800DB5E49</string>
+				<string>4C13E2C712C8B8A800DB5E49</string>
+				<string>4C13E2C812C8B8A800DB5E49</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -878,8 +882,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -915,7 +917,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>4CD35ED612C696FC00EC0C25</string>
+				<string>4C13E2C912C8B8A800DB5E49</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
