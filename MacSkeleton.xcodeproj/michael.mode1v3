@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4CD35F2512C69C9400EC0C25</string>
+										<string>4C13E2B712C8B82300DB5E49</string>
 										<key>history</key>
 										<array>
 											<string>4C5F4CAA12C681D6000D71A9</string>
@@ -347,12 +347,12 @@
 											<string>4C0736BE12C691C20091BE4D</string>
 											<string>4C0736C712C691F80091BE4D</string>
 											<string>4C0736D812C694560091BE4D</string>
-											<string>4C0736D912C694560091BE4D</string>
-											<string>4C0736DA12C694560091BE4D</string>
-											<string>4C0736DB12C694560091BE4D</string>
 											<string>4CD35EEB12C697C200EC0C25</string>
 											<string>4CD35EEC12C697C200EC0C25</string>
-											<string>4CD35EED12C697C200EC0C25</string>
+											<string>4C13E2A812C8B80D00DB5E49</string>
+											<string>4C13E2A912C8B80D00DB5E49</string>
+											<string>4C13E2AA12C8B80D00DB5E49</string>
+											<string>4C13E2AC12C8B80D00DB5E49</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1033, 434}}</string>
+								<string>{{0, 0}, {1033, 419}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>434pt</string>
+							<string>419pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -384,14 +384,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 439}, {1033, 239}}</string>
+								<string>{{0, 424}, {1033, 254}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>239pt</string>
+							<string>254pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -410,9 +410,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4CD35EC212C696D600EC0C25</string>
+				<string>4C13E2B812C8B82300DB5E49</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>4CD35EC312C696D600EC0C25</string>
+				<string>4C13E2B912C8B82300DB5E49</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -550,10 +550,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4CD35ED812C696FC00EC0C25</string>
-		<string>4CD35ED912C696FC00EC0C25</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4CE4AE9912C659030077521D</string>
 		<string>/Users/michael/Code/github/mpatric/mac-skeleton/MacSkeleton.xcodeproj</string>
 	</array>
@@ -635,7 +631,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>4CE4AE9912C659030077521D</string>
-				<string>4CD35EC412C696D600EC0C25</string>
+				<string>4C13E2BA12C8B82300DB5E49</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

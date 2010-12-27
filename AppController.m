@@ -5,8 +5,6 @@
 #import "Debug.h"
 
 #define KEY_VERSION @"version"
-#define KEY_WINDOWX @"windowx"
-#define KEY_WINDOWY @"windowy"
 
 @interface AppController(PrivateMethods)
 - (void) defaultUserSettings;
@@ -69,29 +67,20 @@
 
 - (void) defaultUserSettings {
 	NSNumber* defaultVersion = [[NSNumber numberWithInt:1] retain];
-	NSNumber* defaultWindowX = [[NSNumber numberWithInt:0] retain];
-	NSNumber* defaultWindowY = [[NSNumber numberWithInt:200] retain];
 	NSDictionary* applicationDefaults = [NSDictionary
-		dictionaryWithObjects:[NSArray arrayWithObjects:defaultVersion, defaultWindowX, defaultWindowY, nil]
-		forKeys:[NSArray arrayWithObjects:KEY_VERSION, KEY_WINDOWX, KEY_WINDOWY, nil]];
+		dictionaryWithObjects:[NSArray arrayWithObjects:defaultVersion, nil]
+		forKeys:[NSArray arrayWithObjects:KEY_VERSION, nil]];
 	[[NSUserDefaults standardUserDefaults] registerDefaults:applicationDefaults];
-	[defaultWindowY release];
-	[defaultWindowX release];
 	[defaultVersion release];
 }
 
 - (void) loadUserSettings {
-	//int loadedVersion = [[NSUserDefaults standardUserDefaults] integerForKey:KEY_VERSION];
-	int loadedWindowX = [[NSUserDefaults standardUserDefaults] integerForKey:KEY_WINDOWX];
-	int loadedWindowY = [[NSUserDefaults standardUserDefaults] integerForKey:KEY_WINDOWY];
-	[[mainWindowController window] setFrameOrigin:NSMakePoint(loadedWindowX, loadedWindowY)];
+	int loadedVersion = [[NSUserDefaults standardUserDefaults] integerForKey:KEY_VERSION];
 }
 
 - (void) saveUserSettings {
 	NSRect frame = [[mainWindowController window] frame];
 	[[NSUserDefaults standardUserDefaults] setInteger:CURRENT_VERSION forKey:KEY_VERSION];
-	[[NSUserDefaults standardUserDefaults] setInteger:frame.origin.x forKey:KEY_WINDOWX];
-	[[NSUserDefaults standardUserDefaults] setInteger:frame.origin.y forKey:KEY_WINDOWY];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
